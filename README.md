@@ -1,6 +1,6 @@
 # Ef Core Many To Many Bug Reproduction
 
-This repo is to reproduce the issue that EF Core's generated migration file would have **unexpected** field in the m2m join table when the **join-table** property is inside **abstract** class.
+This repo is to reproduce the [issue](https://github.com/dotnet/efcore/issues/22112) that EF Core's generated migration file would have **unexpected** field in the m2m join table when the **join-table** property is inside **abstract** class.
 
 ## Instruction
 
